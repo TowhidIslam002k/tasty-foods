@@ -38,7 +38,7 @@ const Home = () => {
             {
                 !user && <ToastContainer />
             }
-            <ScrollToTop />
+            {/* <ScrollToTop /> */}
             <Carousel />
 
             <h1 className="text-3xl sm:text4xl font-bold text-center mb-8 mt-14">All Recipe Here</h1>

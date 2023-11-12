@@ -26,7 +26,7 @@ const Carousel = () => {
     }, [])
 
     return (
-        <div className='my-5'>
+        <div className='mt-24 mb-5'>
             <Slider {...settings}>
                 {chefCategory && chefCategory.map((item, id) => {
                     return (

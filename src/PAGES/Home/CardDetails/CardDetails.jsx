@@ -1,5 +1,5 @@
-import React from 'react';
 import { useLoaderData, useNavigate } from 'react-router-dom';
+import ScrollToTop from '../../../SHARED/ScrollToTop/ScrollToTop';
 import Instructions from './Instructions';
 
 const CardDetails = () => {
@@ -12,8 +12,9 @@ const CardDetails = () => {
         navigate(-1)
     }
 
-    return (
-        <div className="card bg-base-100 shadow-xl mx-auto my-10">
+    return (<>
+        <ScrollToTop />
+        <div className="card bg-base-100 shadow-xl mx-auto mt-24 mb-10">
             <div className="lg:flex">
                 <figure><img className='sm:w-2/4 md:w-3/4 lg:w-full' src={image} alt="Shoes" /></figure>
                 <div className="card-body">
@@ -35,7 +36,7 @@ const CardDetails = () => {
                     <button className='btn btn-primary mt-10' onClick={goBack}>Go Back</button>
                 </div>
             </div>
-        </div>
+        </div> </>
     );
 };
 

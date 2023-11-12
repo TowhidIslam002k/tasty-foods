@@ -28,7 +28,7 @@ const Logout = () => {
     }
 
     return (<> <ScrollToTop />
-        <div className="min-h-screen bg-cover bg-center flex items-center justify-center bg-slate-600">
+        <div className="min-h-screen bg-cover bg-center flex items-center justify-center bg-slate-600 mt-16">
 
             <div className="relative z-10 p-6 bg-white rounded-lg shadow-lg text-center">
                 {/* Logout Message */}

@@ -3,11 +3,14 @@
     text-decoration: underline;
 }
 
+.mobile-anchor{
+    min-width: 200px;
+}
+
 .mobile-anchor a {
-    display: block;
+    display: block !important;
     font-weight: bold;
-    padding: 4px 0px 4px 20px;
-    background-color: grey;
+    padding: 4px 37px 4px 25px;
     text-decoration: underline;
 }
 
